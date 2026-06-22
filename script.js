@@ -31,7 +31,7 @@ function copyIP(){
 // ── SERVER STATUS ──
 async function loadServerStatus(){
   try{
-    const r=await fetch('https://api.mcsrvstat.us/3/duskveilsmp.my.id:25410');
+    const r=await fetch('https://api.mcsrvstat.us/3/duskveilsmp.my.id:25349');
     const d=await r.json();
     const dot=document.getElementById('status-dot'),st=document.getElementById('status-text');
     if(d.online){
