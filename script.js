@@ -48,7 +48,7 @@ async function loadServerStatus(){
 }
 
 // ── JSONBIN CONFIG ──
-const BIN_ID='6a1415746610dd3ae8a117c2';
+const BIN_ID='656171b9fc254dc08ac74d6adb744a71'; 
 const API_KEY='$2a$10$Qxdf2gFdu/0D/DfUS4cCguFBz1xFE86PN6HX8xoMjb6J/05NjnTg2';
 const BIN_URL=`https://api.jsonbin.io/v3/b/${BIN_ID}/latest`;
 
